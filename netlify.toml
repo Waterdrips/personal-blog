@@ -1,0 +1,81 @@
+# blog.heyal.co.uk has moved to https://www.heyal.co.uk/blog/
+# Permanent (301) redirects; `force` applies them even where an old file still exists.
+
+[[redirects]]
+  from = "/My-2019"
+  to = "https://www.heyal.co.uk/blog/my-2019/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/developing-openfaas"
+  to = "https://www.heyal.co.uk/blog/developing-openfaas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/civo-my-journey"
+  to = "https://www.heyal.co.uk/blog/civo-my-journey/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docker-bham-jan"
+  to = "https://www.heyal.co.uk/blog/docker-bham-jan/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/inlets-pro"
+  to = "https://www.heyal.co.uk/blog/inlets-pro/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/introducing-arkade"
+  to = "https://www.heyal.co.uk/blog/introducing-arkade/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/openfaas-whats-it-about"
+  to = "https://www.heyal.co.uk/blog/openfaas-whats-it-about/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/unit-testing-helm-charts"
+  to = "https://www.heyal.co.uk/blog/unit-testing-helm-charts/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/loft-sh"
+  to = "https://www.heyal.co.uk/blog/loft-sh/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/office-build"
+  to = "https://www.heyal.co.uk/blog/office-build/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/feed.xml"
+  to = "https://www.heyal.co.uk/blog/rss.xml"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/about"
+  to = "https://www.heyal.co.uk/about/"
+  status = 301
+  force = true
+
+# Everything else (index, pagination, images) goes to the blog index.
+[[redirects]]
+  from = "/*"
+  to = "https://www.heyal.co.uk/blog/"
+  status = 301
+  force = true
